@@ -1,4 +1,4 @@
-echo streamlit > requirements.txt
-echo numpy >> requirements.txt
-echo scikit-learn >> requirements.txt
-echo pandas >> requirements.txt
+streamlit
+numpy
+scikit-learn
+pandas
