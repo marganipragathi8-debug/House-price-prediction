@@ -20,7 +20,7 @@ YearBuilt = st.number_input("Enter the year the house was built", min_value=1900
 DistanceToCity = st.number_input("Enter the distance to the city center in miles", min_value=0.0)
 LocationScore = st.number_input("Enter the location score (1-10)", min_value=1, max_value=10)
 
-#predict button
+#predict buttonsts
 if st.button("Predict Price"):
     #get the input values
     prediction_input =np.array([[Area, Bedrooms, Bathrooms, Floors, YearBuilt, DistanceToCity, LocationScore]])
